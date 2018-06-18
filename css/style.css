@@ -1,0 +1,200 @@
+/* Algemene CSS wat voornamelijk overal wordt gebruikt */
+
+body {
+    margin: 0;
+    font-family: "BeaufortforLOL", Arial, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+    url("../images/trendingBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 100%;
+}
+
+/* CSS voor de navigatie balk */
+
+header {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    color: #c9aa71;
+}
+
+nav a:hover {
+    color: white;
+}
+
+ul {
+    margin-top: 10;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    float: right;
+}
+
+li {
+    margin: 7px;
+}
+
+.logo {
+    float: left;
+    margin-top: 12px;
+    width: 110px;
+}
+
+main {
+    padding-top: 5px;
+}
+
+/* H1 - H6 CSS */
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #c4b998;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: #c4b998;
+    font-family: "BeaufortforLOL-Regular", helvetica;
+    letter-spacing: 7px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 24px;
+}
+
+/* CSS dat op de homepagina voornamelijk gebruikt wordt */
+
+.icon {
+    max-height: 32px;
+    max-width: 32px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.icon_trending {
+    margin-top: 15px;
+    max-height: 32px;
+    max-width: 32px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.latest_image img {
+    margin: auto;
+    width: 100%;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 2px;
+    border-color: #7E633B;
+}
+
+.latest_text {
+    background-color: #101217;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 2px;
+    border-color: #7E633B;
+}
+
+.champion {
+    margin-bottom: 20px;
+}
+
+.trending {
+    margin-top: 55px;
+}
+
+/*CSS voor op de contact Pagina*/
+
+form {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+input,
+textarea {
+    margin-top: 5px;
+    color: #5a5854;
+    border: 1px solid #bdbdbd;
+    display: block;
+    margin-bottom: 15px;
+    width: 95%;
+    padding: 10px;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #c4b998;
+}
+
+/* CSS voor op de Champion pagina's met section */
+
+section > h1 {
+    color: #937341;
+    font-size: 2.5em;
+    line-height: 1px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+section > img {
+    margin: auto;
+    width: 100%;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 2px;
+    border-color: #7E633B;
+}
+
+/* Footer CSS */
+
+footer > p {
+    text-align: center;
+    color: white;
+    padding: 0px;
+}
+
+p.foot {
+    height: 380px;
+}
+
+footer a:hover {
+    color: #c4b998
+}
